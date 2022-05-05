@@ -1,0 +1,7 @@
+package tdtu_dp_pullupconstractor;
+
+public class School {
+	protected String Name;
+	protected String Id;
+	protected String Gender;
+}

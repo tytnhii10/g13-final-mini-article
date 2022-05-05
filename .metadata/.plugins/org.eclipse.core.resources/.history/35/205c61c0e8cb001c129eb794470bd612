@@ -1,0 +1,7 @@
+package tdtu_dp_Extractsubclass;
+
+public class LaborItem extends JobItem {
+	public LaborItem (int unitPrice, int quantity, boolean isLabor,Employee employee) {
+		super (unitPrice, quantity, isLabor, employee);
+	}
+}

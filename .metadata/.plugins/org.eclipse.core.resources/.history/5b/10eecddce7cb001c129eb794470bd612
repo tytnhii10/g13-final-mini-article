@@ -1,0 +1,28 @@
+package tdtu_dp_Extractsubclass;
+
+public class JobItem {
+	public JobItem(int unitPrice, int quantity, boolean isLabor,Employee employee) {
+		this.unitPrice = unitPrice;
+		this.quantity = quantity;
+		this.IsLabor = isLabor;
+		this.Employee = employee;
+	}
+	
+	public int getTotalPrice() {
+		 return getUnitPrice() * _quantity;
+	}
+	public int getUnitPrice(){
+		 return (_isLabor) ? _employee.getRate(): _unitPrice;
+	}
+	public int getQuantity(){
+		 return _quantity;
+	}
+	public Employee getEmployee() {
+		 return _employee;
+	}
+	private int _unitPrice;
+	private int _quantity;
+	private Employee _employee;
+	private boolean _isLabor;
+
+}

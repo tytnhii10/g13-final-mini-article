@@ -1,0 +1,9 @@
+package tdtu_dp_pushdownfield;
+
+import tdtu_dp_pullupfield.School;
+
+public class Subjects extends School {
+	public String teachers;
+	public String time;
+}
+

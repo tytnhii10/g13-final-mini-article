@@ -1,0 +1,5 @@
+package tdtu_dp_pullupconstractor;
+
+public class Teachers extends School{
+	public Teachers(String name, String id, String gender, )
+}

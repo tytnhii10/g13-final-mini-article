@@ -1,0 +1,5 @@
+package tdtu_dp_pullupfield;
+
+public class Students extends School {
+	private String name;
+}

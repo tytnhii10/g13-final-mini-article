@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;tdtu_dp_pushdownmethod.Unit&apos; to &apos;School&apos;&#x0D;&#x0A;- Original project: &apos;Push_down_method&apos;&#x0D;&#x0A;- Original element: &apos;tdtu_dp_pushdownmethod.Unit&apos;&#x0D;&#x0A;- Renamed element: &apos;tdtu_dp_pushdownmethod.School&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Unit&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;tdtu_dp_pushdownmethod{Unit.java[Unit" matchStrategy="1" name="School" qualified="false" references="true" similarDeclarations="false" stamp="1651693840196" textual="false" version="1.0"/>
+</session>

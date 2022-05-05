@@ -1,0 +1,7 @@
+package tdtu_dp_pushdownfield;
+
+public class School {
+	protected String name;
+	protected String id;
+	protected String credit;
+}

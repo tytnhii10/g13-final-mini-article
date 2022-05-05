@@ -1,0 +1,8 @@
+package tdtu_dp_pullupmethod;
+import java.sql.Date;
+
+public class Regular_Customer extends Customer {
+	protected override double ChargeFor(Date start, Date end) {
+		return (end  - start).Date *100;
+	}
+}
